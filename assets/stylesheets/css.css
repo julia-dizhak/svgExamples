@@ -20,7 +20,7 @@ body {
 }
 
 .container h1 {
-  margin: 0 0 20px 0;
+  margin: 0 0 40px 0;
 }
 
 .svg {
@@ -28,6 +28,11 @@ body {
   vertical-align: middle;
   margin: auto;
 }
+
+.row {
+  margin-bottom: 40px;
+}
+
 .item {
   box-sizing: border-box;
   padding: 5px;
@@ -57,4 +62,29 @@ circle {
   100% {
     transfrorm: scale(1);
   }
+}
+
+/*svg shape*/
+.svg-shape circle {
+  fill: none;
+  stroke: #008B6F;
+  stroke-width: 7px;
+}
+.svg-shape line {
+  stroke: black;
+  stroke-width: 5px;
+}
+.svg-shape text {
+  font-size: 80px;
+  /*font-family: "FilmotypeMajor";*/
+  /*centralized text*/
+  text-anchor: middle;
+  stroke: #000;
+  stroke-width: 3px;
+  fill: #F6F7F3;
+}
+.svg-shape polygon {
+  fill: #008B6F;
+  stroke: black;
+  stroke-width: 2px;
 }
