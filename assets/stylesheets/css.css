@@ -36,7 +36,7 @@ body {
 .item {
   box-sizing: border-box;
   padding: 5px;
-  //border: 1px solid #ccc;
+  /*border: 1px solid #ccc;*/
   box-shadow: 0 0 0 1px rgba(0,0,0, 0.2);
   border-radius: 2px;
   text-align: center;
@@ -47,7 +47,7 @@ body {
   font-size: 25px
 }
 
-/*svg style inline*/
+/* svg style inline */
 circle {
   animation: grow 2s infinite;
   transform-origin: center;
@@ -64,17 +64,63 @@ circle {
   }
 }
 
-/*svg shape*/
-.svg-shape circle {
+/* svg house */
+.svg-house {
+  background-color: #F6F7F7;
+}
+.svg-house .background-circle {
+  fill: #068C70;
+  stroke: #FFFFFF;
+  stroke-width: 15px;
+}
+.svg-house .chimney {
+  fill: #FBF6A7;
+}
+.svg-house .chimney-topper {
+  fill: #E04E27;
+}
+.svg-house .body {
+  fill: #FBF6A7;
+}
+.svg-house .roof {
+  fill: #E04E27;
+}
+.svg-house .door {
+  fill: #E04E27;
+}
+.svg-house .door-knob {
+  fill:#FBF6A7;
+}
+.svg-house line {
+  fill: #068C70;
+  stroke: #068C70;
+  stroke-width: 1px;
+}
+.svg-house .flower-outer {
+  fill: #EC7E23;
+}
+.svg-house .flower-inner {
+  fill: #FBCE1D;
+}
+.svg-house .text {
+  /*font-family: Filmotype Major;*/
+  font-size: 50px;
+  fill: #3E9FD8;
+  stroke: #FFFFFF;
+  stroke-width: 2px;
+}
+
+/* svg shap e*/
+.svg-badge circle {
   fill: none;
   stroke: #008B6F;
   stroke-width: 7px;
 }
-.svg-shape line {
+.svg-badge line {
   stroke: black;
   stroke-width: 5px;
 }
-.svg-shape text {
+.svg-badge text {
   font-size: 80px;
   /*font-family: "FilmotypeMajor";*/
   /*centralized text*/
@@ -83,7 +129,7 @@ circle {
   stroke-width: 3px;
   fill: #F6F7F3;
 }
-.svg-shape polygon {
+.svg-badge polygon {
   fill: #008B6F;
   stroke: black;
   stroke-width: 2px;

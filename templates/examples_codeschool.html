@@ -22,36 +22,37 @@
           <h2>House Svg</h2>
           <?xml version="1.0" encoding="utf-8"?>
           <svg
+              class="svg-house"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
-              style="background-color:#F6F7F7;"
               height="340"
               width="340">
             <!-- Bg Circle -->
-            <circle cx="170" cy="170" r="162" fill="#068C70" stroke="#ffffff" stroke-width="15" />
+            <circle class="background-circle" cx="170" cy="170" r="162" />
 
             <!-- Chimney -->
-            <rect height="21" width="14" fill="#FBF6A7" x="98" y="127"/>
+            <rect class="chimney" height="21" width="14" x="98" y="127"/>
 
             <!-- Chimney Topper -->
-            <rect height="4" width="20" fill="#E04E27" x="95" y="123"/>
+            <rect class="chimney-topper" height="4" width="20" x="95" y="123"/>
 
             <!-- House -->
-            <rect height="84" width="162" fill="#FBF6A7" x="90" y="198" />
-            <rect height="56" width="184" fill="#E04E27" x="80" y="148" />
+            <rect class="body" height="84" width="162" x="90" y="198" />
+            <!-- <rect class="roof" height="56" width="184" x="80" y="148" /> -->
+            <polygon class="roof" points="256,148 262,203 80,203 87,148 327,148" />
 
             <!-- Door -->
-            <rect height="60" width="36" fill="#E04E27" x="153" y="222"/>
-            <rect x="153" y="218" fill="#E04E27" width="36" height="10" rx="5"/>
-            <rect height="8" width="2" fill="#FBF6A7" x="183" y="252" />
+            <rect class="door" height="60" width="36" x="153" y="222"/>
+            <rect class="door" x="153" y="218" width="36" height="10" rx="5"/>
+            <rect class="door-knob" height="8" width="2" x="183" y="252" />
 
             <!-- Flower -->
-            <line x1="228" y1="267" x2="228" y2="282" stroke="#068C70" stroke-width="1"/>
-            <circle fill="#EC7E23" cx="228" cy="267" r="6"/>
-            <circle fill="#FBCE1D" cx="231" cy="266" r="2"/>
+            <line x1="228" y1="267" x2="228" y2="282" />
+            <circle class="flower-outer" cx="228" cy="267" r="6" />
+            <circle class="flower-inner" cx="231" cy="266" r="2" />
 
             <!-- TEXT -->
-            <text x="85" y="97" font-size="70" fill="#3E9FD8" stroke="#fff" stroke-width="2" font-family="Filmotype Major.">HOME</text>
+            <text  class="text" x="85" y="97">HOME</text>
           </svg>
         </div>
       </div>
@@ -82,11 +83,11 @@
     <div class="row">
       <div class="col-md-4">
         <div class="item">
-          <h2>Shapes</h2>
+          <h2>Svg Badge</h2>
           <svg
             height="268"
             width="268"
-            class="svg-shape">
+            class="svg-badge">
             <!-- any attributes to do with coordinates stays inline -->
             <circle r="130" cx="134" cy="134" />
             <line x1="47" y1="198" x2="221" y2="198" />
@@ -95,10 +96,26 @@
 
           </svg>
         </div>
-
       </div>
       <div class="col-md-4">
-
+        <div class="item">
+          <h2>Flower</h2>
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg width="12px" height="21px" viewBox="0 0 12 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+              <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+              <title>Group</title>
+              <desc>Created with Sketch.</desc>
+              <defs></defs>
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <g id="Group" sketch:type="MSLayerGroup">
+                  <line x1="6" y1="6" x2="6" y2="21" stroke="#068C70" stroke-width="1" sketch:type="MSShapeGroup"/>
+                  <!-- order matters -->
+                  <circle id="Oval" fill="#EC7E23" sketch:type="MSShapeGroup" cx="6" cy="6" r="6"/>
+                  <circle id="Oval" fill="#FBCE1D" sketch:type="MSShapeGroup" cx="9" cy="5" r="2"/>
+                </g>
+              </g>
+            </svg>
+        </div>
       </div>
       <div class="col-md-4">
 
