@@ -134,3 +134,12 @@ circle {
   stroke: black;
   stroke-width: 2px;
 }
+.svg-badge .triangle-group polygon {
+  fill: #59BFC6;
+  stroke: #000;
+  stroke-width: 2px;
+}
+/*.svg-badge .triangle-group {
+  fill: #59BFC6;
+  stroke-width: 1px;
+}*/
