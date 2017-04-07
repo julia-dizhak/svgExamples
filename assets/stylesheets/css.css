@@ -112,10 +112,14 @@ circle {
 .svg-house .windows rect {
   fill: #3E9FD8;
 }
-
 .svg-house  .windows line {
   stroke: #E04E27;
   stroke-width: 4px;
+}
+.svg-house path {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2px;
 }
 
 /* svg shape */
@@ -154,3 +158,12 @@ circle {
   fill: #59BFC6;
   stroke-width: 1px;
 }*/
+
+.paths path {
+  fill: #008B6F;
+  stroke: #000;
+  stroke-width: 1px;
+  stroke-linecap: initial;
+  /*stroke-dasharray: 1px;*/
+  stroke-dashoffset: initial;
+}
