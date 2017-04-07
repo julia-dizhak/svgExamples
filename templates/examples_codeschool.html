@@ -46,10 +46,47 @@
             <rect class="door" x="153" y="218" width="36" height="10" rx="5"/>
             <rect class="door-knob" height="8" width="2" x="183" y="252" />
 
+            <g class="windows" transform="translate(72, 110)">
+              <!-- Window R  -->
+              <rect x="36" y="113" width="14" height="14"/>
+              <rect x="52" y="113" width="14" height="14"/>
+              <rect x="36" y="129" width="14" height="14"/>
+              <rect x="52" y="129" width="14" height="14"/>
+              <line x1="34" y1="147" x2="69" y2="147"/>
+
+              <!-- Window L  -->
+              <rect x="130" y="113" width="14" height="14"/>
+              <rect x="146" y="113" width="14" height="14"/>
+              <rect x="130" y="129" width="14" height="14"/>
+              <rect x="146" y="129" width="14" height="14"/>
+              <line x1="128" y1="147" x2="162" y2="147"/>
+            </g>
+
             <!-- Flower -->
-            <line x1="228" y1="267" x2="228" y2="282" />
-            <circle class="flower-outer" cx="228" cy="267" r="6" />
-            <circle class="flower-inner" cx="231" cy="266" r="2" />
+            <g class="flower" transform="scale(.8) translate(60,71)">
+              <line x1="228" y1="267" x2="228" y2="282"/>
+              <circle class="flower-outer" cx="228" cy="267" r="6"/>
+              <circle class="flower-inner" cx="231" cy="266" r="2"/>
+            </g>
+            <g class="flower" transform="translate(-22, 0)">
+              <line x1="228" y1="267" x2="228" y2="282"/>
+              <g transform="rotate(195,228,267)">
+                <circle class="flower-outer" cx="228" cy="267" r="6"/>
+                <circle class="flower-inner" cx="231" cy="266" r="2"/>
+              </g>
+            </g>
+            <g class="flower" transform="translate(-93, 0)">
+              <line x1="228" y1="267" x2="228" y2="282"/>
+              <g transform="rotate(50,228,267)">
+                <circle class="flower-outer" cx="228" cy="267" r="6"/>
+                <circle class="flower-inner" cx="231" cy="266" r="2"/>
+              </g>
+            </g>
+            <g class="flower" transform="translate(-116, 0) scale(0.8) translate(55,71)        ">
+              <line x1="228" y1="267" x2="228" y2="282"/>
+              <circle class="flower-outer" cx="228" cy="267" r="6"/>
+              <circle class="flower-inner" cx="231" cy="266" r="2"/>
+            </g>
 
             <!-- TEXT -->
             <text  class="text" x="85" y="97">HOME</text>
@@ -98,17 +135,23 @@
             <!-- translate means to move -->
             <!-- by grouping these shapes together, we now have option to transform  -->
             <!-- SVG transform attribute allows us to do multiple things, like translate, rotate, scale -->
-            <g class="triangle-group" transform="translate(45, 67)">
+            <g
+                class="first triangle-group"
+                transform="translate(45, 67), rotate(10 12.5 12.5)">
               <polygon points="7,10 12,0 17,10" />
               <polygon points="0,25 5,15 10,25" />
               <polygon points="15,25 20,15 25,25" />
             </g>
-            <g class="triangle-group" transform="translate(198, 67)">
+            <g
+                class="second triangle-group"
+                transform="translate(198, 67), rotate(-10 12.5 12.5)">
               <polygon points="7,10 12,0 17,10" />
               <polygon points="0,25 5,15 10,25" />
               <polygon points="15,25 20,15 25,25" />
             </g>
-            <g class="triangle-group" transform="translate(121.5, 211)">
+            <g
+                class="triangle-group"
+                transform="translate(121.5, 211) scale(0.6) translate(8,8)">
               <polygon points="7,10 12,0 17,10" />
               <polygon points="0,25 5,15 10,25" />
               <polygon points="15,25 20,15 25,25" />
