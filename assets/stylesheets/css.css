@@ -118,7 +118,10 @@ circle {
   stroke-width: 4px;
 }
 
-/* svg shap e*/
+/* svg shape */
+.svg-badge-wrap {
+  padding: 20px 40px;
+}
 .svg-badge circle {
   fill: none;
   stroke: #008B6F;
