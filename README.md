@@ -9,12 +9,11 @@ https://codeschool.com/courses/you-me-svg
 # Responsive scalabe graphics
 Using a viewbox
 <ol>
-<li>1 copy our viewport values into a nested coordinate system called the viewBox</li>    
+    <li>copy our viewport values into a nested coordinate system called the viewBox</li>
+    <li>give our viewport responsive values for height and width</li>
+    <li>moving viewport values to ViewBox</li>   
+    <li>ViewBox origin X,Y</li>      
 </ol>
-
-2 give our viewport responsive values for height and width
-3 moving viewport values to ViewBox
-4 ViewBox origin X,Y
 
 # Paths
 Path just another way to draw a shape
