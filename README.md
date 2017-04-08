@@ -8,7 +8,10 @@ https://codeschool.com/courses/you-me-svg
 
 # Responsive scalabe graphics
 Using a viewbox
-1 copy our viewport values into a nested coordinate system called the viewBox
+<ol>
+<li>1 copy our viewport values into a nested coordinate system called the viewBox</li>    
+</ol>
+
 2 give our viewport responsive values for height and width
 3 moving viewport values to ViewBox
 4 ViewBox origin X,Y
@@ -24,5 +27,9 @@ stroke-linecap
 stroke-dasharray
 stroke-dashoffset
 
+# Symbols to use
+
 # Resources
 https://jakearchibald.github.io/svgomg/
+https://github.com/anthonydugois/polynom
+http://polynom.co/

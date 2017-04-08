@@ -29,6 +29,10 @@ body {
   margin: auto;
 }
 
+.defined-icon {
+  display: none;
+}
+
 .row {
   margin-bottom: 40px;
 }
@@ -62,6 +66,18 @@ circle {
   100% {
     transfrorm: scale(1);
   }
+}
+
+#schmuffle-phone rect,
+#schmuffle-phone circle {
+  fill: white;
+}
+#schmuffle-phone rect {
+  stroke: #FF2626;
+  stroke-width: 10px;
+}
+.svg-phone-wrap {
+  padding: 20px 40px;
 }
 
 /* svg house */

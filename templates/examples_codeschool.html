@@ -2,6 +2,33 @@
     class="svg"
     ng-controller="svgCodeschoolExamplesController">
   <div class="container">
+
+    <div class="svg-icons-list">
+      <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewbox="0 0 80 110"
+          class="defined-icon">
+          <symbol id="schmuffle-phone">
+            <rect
+                height="100"
+                width="70"
+                fill="white"
+                stroke="pink"
+                stroke-width="10"
+                x="5"
+                y="5"
+                rx="5"
+                ry="5" />
+            <circle
+                cx="40"
+                cy="105"
+                r="3"
+                fill="white" />
+          </symbol>
+      </svg>
+    </div>
+
     <h1>Svg examples</h1>
 
     <div class="row">
@@ -26,6 +53,8 @@
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
               viewbox="0 0 340 340">
+              <title>Home Icon</title>
+              <desc>A yellow house with blue windows</desc>  
             <!-- Bg Circle -->
             <circle class="background-circle" cx="170" cy="170" r="162" />
 
@@ -99,23 +128,19 @@
       <div class="col-md-4">
         <div class="item">
           <h2>Schmuffle Phone Icon</h2>
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="110" width="80">
-            <rect
-                height="100"
-                width="70"
-                fill="white"
-                stroke="pink"
-                stroke-width="10"
-                x="5"
-                y="5"
-                rx="5"
-                ry="5" />
-            <circle
-                cx="40"
-                cy="105"
-                r="3"
-                fill="white" />
-          </svg>
+          <div class="svg-phone-wrap">
+            <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                class="displayed-icon"
+                viewbox="0 0 80 110"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                class="defined-icon">
+                <title>Schmuffle Phone icon</title>
+                <desc>A phone with a large border woth rounded corners, a white screen, and a white round button centered below the screen</desc>
+                <use xlink:href="#schmuffle-phone">
+            </svg>
+          </div>
         </div>
       </div>
     </div>
@@ -189,9 +214,22 @@
             </svg>
         </div>
       </div>
-      <!-- <div class="col-md-4">
-
-      </div> -->
+      <div class="col-md-4">
+        <div class="item">
+          <h2>Facebook</h2>
+          <div class="svg-facebook-wrap">
+            <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                class="displayed-icon"
+                viewbox="0 0 80 110"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                class="defined-icon">
+                <use xlink:href="/assets/svg/facebook.svg#facebook">
+            </svg>
+          </div>
+        </div>
+      </div>
 
     </div>
 
