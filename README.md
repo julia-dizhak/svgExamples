@@ -11,20 +11,21 @@ Using a viewbox
 <ol>
     <li>copy our viewport values into a nested coordinate system called the viewBox</li>
     <li>give our viewport responsive values for height and width</li>
-    <li>moving viewport values to ViewBox</li>   
-    <li>ViewBox origin X,Y</li>      
+    <li>moving viewport values to ViewBox</li>
+    <li>ViewBox origin X,Y</li>
 </ol>
 
 # Paths
 Path just another way to draw a shape
 <path d="M7,10 L7,10 L12,0 L17,10 Z"><path>
-start path, draw line in between, close path
-MLZ are all path commands that will draw straight lines
-stroke
-stroke-width
-stroke-linecap
-stroke-dasharray
-stroke-dashoffset
+<p>start path, draw line in between, close path</p>
+<ul>
+<li>stroke</li>
+<li>stroke-width</li>
+<li>stroke-linecap</li>
+<li>stroke-dasharray</li>
+<li>stroke-dashoffset</li>
+</ul>
 
 # Symbols to use
 <p>Symbol is for Reusable elements</p>
@@ -38,6 +39,8 @@ stroke-dashoffset
 Label for assets: title and desc
 
 # Resources
-https://jakearchibald.github.io/svgomg/
-https://github.com/anthonydugois/polynom
-http://polynom.co/
+<ul>
+<li>https://jakearchibald.github.io/svgomg/</li>
+<li>https://github.com/anthonydugois/polynom</li>
+<li>http://polynom.co/</li>
+</ul>
